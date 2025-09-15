@@ -29,3 +29,8 @@ header{
 .con{
     display: flex;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
