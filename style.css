@@ -5,61 +5,76 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
 }
-header{
-    background-color: #1f2937;
-    color: #f7faf8;
-    padding: 15px;  
+
+.links,.call,.img,#quote2{
+    display: flex;
 }
-footer{
+header,.con, .action,.img,.test{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+}
+footer,.img{
+    display: flex;
+    justify-content:center;
     align-items: center;
+}
+footer, header{
     background-color: #1f2937;
     color: #f7faf8;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-l{
+    display: flex;
+    flex-direction: column;
+}
+.info,.ilus,.quote{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
     height:80px ;
 }
 .head{
     width: 1000px;
     height: auto;
-    justify-content: space-between;
 }
 .links{
     color: #e5e7eb;
-    font-size: 18px;
     gap: 20px;
 }
 .title{
-    justify-content: space-between;
-    align-items: center;
     color: #f7faf8;
     width: 1000px;
     height: 200px;
     gap: 40px;
 }
 .title-l{
-    flex-direction: column;
-    justify-content: space-between;
     height: 200px;
-    align-items: flex-start;
-    
+    align-items: flex-start; 
 }
-.info{
-    align-items: center;
-    flex-direction: column;
-    padding: 30px;
-}
+
 .ilus{
-    flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
     height: 200px;
     width: 170px;
     text-align: center;
 }
-.con, .action{
-    padding: 20px;
-}
+
 .quote{
-    flex-direction: column;
-    align-items: center;
     background-color: #e5e7eb;
     height: 300px;    
 }
@@ -96,8 +111,7 @@ input{
 .img{
     background-color: #9b9b9b;
     height: 200px;
-    width: 600px;
-    align-items: center;    
+    width: 600px;    
 }
 .test{
     background-color:#1f2937;
@@ -134,10 +148,7 @@ input{
     color: #1f2937;
     font-style: italic;
 }
-.head, .links, .title,.title-l,.info,.ilus,.call,.img,#quote2{
-    display: flex;
+.info{
+    padding: 30px;
 }
-header,footer,.con, .action,.quote,.img,.test{
-    display: flex;
-    justify-content:center;
-}
+
