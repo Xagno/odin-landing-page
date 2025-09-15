@@ -1,40 +1,141 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
     display: flex;
+    background-color: #1f2937;
+    color: #f7faf8;
+    padding: 15px;  
+    justify-content:center;
+}
+.head{
+    display: flex;
+    width: 1000px;
+    height: auto;
     justify-content: space-between;
 }
 .links{
     display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 20px;
 }
 .title{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    color: #f7faf8;
+    width: 1000px;
+    height: 200px;
+    gap: 40px;
 }
 .title-l{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-start;
+    
 }
 .info{
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 30px;
 }
 .ilus{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 170px;
+    text-align: center;
 }
-.con{
+.con, .action{
     display: flex;
+    padding: 20px;
+    justify-content: center;
 }
 .quote{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    height: 300px;
+    justify-content: center;
 }
 .call{
     display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    border-radius: 8px;
+    color: white;
+    margin: 50px;
+}
+footer{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f7faf8;
+    height:80px ;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    border:2px solid #3882f6 ;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+input{
+    background-color: #3882f6;
+    border: none;
+    width: 90px;
+    height: 30px;
+}
+img{
+    background-color: #9b9b9b;
+    height: 200px;
+    width: 600px;
+    
+}
+.test{
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.square{
+    border:3px solid #3882f6;
+    border-radius: 8px;
+    height: 130px;
+    width: 130px;
+}
+#button2{
+    border: 2px solid white;
+}
+#product, input{
+    font-weight: 900;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
 }
