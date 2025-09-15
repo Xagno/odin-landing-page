@@ -18,3 +18,14 @@ header{
     display: flex;
     flex-direction: column;
 }
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ilus{
+    display: flex;
+}
+.con{
+    display: flex;
+}
